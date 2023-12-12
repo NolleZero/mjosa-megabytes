@@ -1,0 +1,17 @@
+.header {
+    
+    height: 400px;
+
+
+}
+
+  
+.tekst {
+    font-size: 100px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+    
+}
