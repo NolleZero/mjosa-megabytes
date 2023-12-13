@@ -9,6 +9,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import { KartComponent } from './kart/kart.component';
+import { GoogleMapsModule} from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,14 @@ import { KartComponent } from './kart/kart.component';
     HeaderComponent,
     BodyComponent,
     TabsComponent,
-    KartComponent
+    KartComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

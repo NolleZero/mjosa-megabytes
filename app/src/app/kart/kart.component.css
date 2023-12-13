@@ -1,0 +1,16 @@
+/* kart.component.css */
+.tekst {
+    color: white;
+}
+
+.map-container {
+    text-align: center; /* Center the iframe horizontally */
+  }
+  
+  .map-container iframe {
+    margin: auto; /* Additional centering for the iframe */
+    display: block; /* To prevent inline whitespace issues */
+    max-width: 100%; /* Ensures responsiveness */
+    height: 450px; /* Fixed height, or you can use responsive units like vh */
+  }
+  

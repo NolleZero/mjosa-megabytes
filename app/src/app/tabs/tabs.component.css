@@ -6,6 +6,7 @@
     position: relative;
     margin: auto; /* This will center the element horizontally */
     color: white;
+    z-index: 1;
 }
 .bilde1 {
     margin-right: 10px;

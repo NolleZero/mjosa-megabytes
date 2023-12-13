@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./kart.component.css']
 })
 export class KartComponent {
+  lat = 59.911491; 
+  lng = 10.757933;
 
 }
