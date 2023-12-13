@@ -1,8 +1,10 @@
 .tekst {
-    font-size: 40px;
-    width: 1000px;
-    position: relative;
-    left: 450px;
+    font-size: 30px;
     color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; 
     
 }

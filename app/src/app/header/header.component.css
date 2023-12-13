@@ -1,17 +1,16 @@
+
 .header {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 70vh; /* Use the full viewport height */
+    text-align: center;
     
-    height: 400px;
-
-
 }
 
-  
 .tekst {
     font-size: 110px;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 450px;
-    top: 150px;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }

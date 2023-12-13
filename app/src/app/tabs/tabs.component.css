@@ -1,12 +1,12 @@
+
+
 .tabs {
-    height:400px;
+    height: 400px;
     width: 950px;
     position: relative;
-    left: 450px;
-    color:white;
-    
+    margin: auto; /* This will center the element horizontally */
+    color: white;
 }
-
 .bilde1 {
     margin-right: 10px;
 } 

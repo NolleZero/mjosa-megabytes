@@ -8,13 +8,15 @@ import { BodyComponent } from './body/body.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
+import { KartComponent } from './kart/kart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    TabsComponent
+    TabsComponent,
+    KartComponent
   ],
   imports: [
     BrowserModule,
