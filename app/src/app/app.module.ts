@@ -11,6 +11,13 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { KartComponent } from './kart/kart.component';
 import { GoogleMapsModule} from '@angular/google-maps';
 import { OmOssComponent } from './om-oss/om-oss.component';
+import { KontaktskjemaComponent } from './kontaktskjema/kontaktskjema.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+
+
+
 
 @NgModule({
   declarations: [
@@ -20,6 +27,7 @@ import { OmOssComponent } from './om-oss/om-oss.component';
     TabsComponent,
     KartComponent,
     OmOssComponent,
+    KontaktskjemaComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +35,9 @@ import { OmOssComponent } from './om-oss/om-oss.component';
     BrowserAnimationsModule,
     MatTabsModule,
     GoogleMapsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

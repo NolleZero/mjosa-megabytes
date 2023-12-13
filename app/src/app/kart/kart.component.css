@@ -13,5 +13,6 @@
     display: block; /* To prevent inline whitespace issues */
     max-width: 100%; /* Ensures responsiveness */
     height: 450px; /* Fixed height, or you can use responsive units like vh */
+    
   }
   
