@@ -15,6 +15,7 @@ import { KontaktskjemaComponent } from './kontaktskjema/kontaktskjema.component'
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { KundereferanserComponent } from './kundereferanser/kundereferanser.component';
 
 
 
@@ -28,6 +29,7 @@ import { MatSelectModule } from '@angular/material/select';
     KartComponent,
     OmOssComponent,
     KontaktskjemaComponent,
+    KundereferanserComponent,
   ],
   imports: [
     BrowserModule,
