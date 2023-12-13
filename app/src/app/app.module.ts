@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import { KartComponent } from './kart/kart.component';
 import { GoogleMapsModule} from '@angular/google-maps';
+import { OmOssComponent } from './om-oss/om-oss.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { GoogleMapsModule} from '@angular/google-maps';
     BodyComponent,
     TabsComponent,
     KartComponent,
+    OmOssComponent,
   ],
   imports: [
     BrowserModule,

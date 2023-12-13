@@ -1,0 +1,31 @@
+.overtekst{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center; /* Centers vertically in the flex container */
+    width: 100%; /* Takes the full width of the parent container */
+    padding: 20px; /* Provides some space inside the container */
+    box-sizing: border-box; /* Includes padding in the width calculation */
+    margin-top: 100px;
+
+}
+
+
+.tekst {
+    color: white;
+    display: flex;
+    justify-content: center; /* Centers horizontally in the flex container */
+    align-items: center; /* Centers vertically in the flex container */
+    min-height: 20vh; /* Minimum height of the viewport's full height */
+    width: 100%; /* Takes the full width of the parent container */
+    padding: 20px; /* Provides some space inside the container */
+    box-sizing: border-box; /* Includes padding in the width calculation */
+  }
+  
+
+  /* Optional: If you want the container to have a maximum width and be centered */
+  .container {
+    width: 100%; /* Full width to center the content */
+    max-width: 700px; /* Maximum width of the content */
+    margin: 0 auto; /* Auto margins for horizontal centering */
+  }
