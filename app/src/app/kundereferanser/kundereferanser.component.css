@@ -1,12 +1,11 @@
 .bakgrund {
     margin-top: 100px;
-    background-color: white;
+    background-color: #8ECAE6;
 }
 
 
 .bilder {
-    /* If you want to ensure the container can expand to fit the images, 
-       you might want to remove the fixed width and height, or set them to a larger value. */
+
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -14,22 +13,21 @@
   }
 
   .bilder2 {
-    /* If you want to ensure the container can expand to fit the images, 
-       you might want to remove the fixed width and height, or set them to a larger value. */
+
     display: flex;
     flex-wrap: wrap;
     gap: 10px; 
     justify-content: center; 
   }
   
-  /* Specify individual sizes for images if needed, using width and/or height */
+  
   .bilde1, .bilde2, .bilde3, .bilde4, .bilde5, .bilde6 {
     width: 100%; 
     height: auto; 
     margin-top: 30px;
   }
   
-  /* If the images need to be a certain size regardless of the container, you can set a max-width instead */
+  
   .bilde1, .bilde2, .bilde3, .bilde4, .bilde5, .bilde6 {
     max-width: 100px;
     height: auto;

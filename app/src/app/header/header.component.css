@@ -1,16 +1,46 @@
-
+/*her redigerer du plaseringen*/
 .header {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 70vh; /* Use the full viewport height */
+    justify-content: center; 
+    align-items: center; 
+    height: 70vh;
     text-align: center;
     
 }
 
+/*her redigerer du selve teksten*/
+
 .tekst {
     font-size: 110px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+    color: #FB8500;
+    
+    font-family: 'Bebas Neue', sans-serif;
 }
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar a {
+    display: block;
+    color: #FB8500;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .navbar a:hover {
+  
+    color: #FFB703;
+  }

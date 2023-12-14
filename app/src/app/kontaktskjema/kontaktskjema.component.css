@@ -1,16 +1,21 @@
+/*her endrer du på formfield*/
+
 mat-form-field {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     color: rgb(0, 0, 0);
-    background-color: white;
+    background-color: #ffffff;
     font-size: 20px;
    
   }
   
+  /*denne endrer på knapp*/
   button {
-    margin-top: 20px; /* Adjust as necessary */
+    margin-top: 20px; 
   }
 
+  /*denne endrer på plasering*/
   .content-wrapper {
     margin-top: 100px;
     display: flex;

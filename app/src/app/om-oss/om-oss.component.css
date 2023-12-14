@@ -1,31 +1,33 @@
+
+/*her redigerer du overskriften*/
 .overtekst{
     color: white;
     font-size: 30px;
     display: flex;
-    align-items: center; /* Centers vertically in the flex container */
-    width: 100%; /* Takes the full width of the parent container */
-    padding: 20px; /* Provides some space inside the container */
-    box-sizing: border-box; /* Includes padding in the width calculation */
+    align-items: center; 
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
     margin-top: 10px;
 
 }
 
-
+/*her redigerer du teksten*/
 .tekst {
     color: white;
     display: flex;
-    justify-content: center; /* Centers horizontally in the flex container */
-    align-items: center; /* Centers vertically in the flex container */
-    min-height:10vh; /* Minimum height of the viewport's full height */
-    width: 100%; /* Takes the full width of the parent container */
-    padding: 20px; /* Provides some space inside the container */
-    box-sizing: border-box; /* Includes padding in the width calculation */
+    justify-content: center; 
+    align-items: center;
+    min-height:10vh;
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
   }
   
 
-  /* Optional: If you want the container to have a maximum width and be centered */
+  
   .container {
-    width: 100%; /* Full width to center the content */
-    max-width: 900px; /* Maximum width of the content */
-    margin: 0 auto; /* Auto margins for horizontal centering */
+    width: 100%; 
+    max-width: 900px; 
+    margin: 0 auto; 
   }

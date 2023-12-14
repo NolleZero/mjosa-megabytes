@@ -16,6 +16,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { KundereferanserComponent } from './kundereferanser/kundereferanser.component';
+import { ProdukterComponent } from './produkter/produkter.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -30,6 +32,8 @@ import { KundereferanserComponent } from './kundereferanser/kundereferanser.comp
     OmOssComponent,
     KontaktskjemaComponent,
     KundereferanserComponent,
+    ProdukterComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

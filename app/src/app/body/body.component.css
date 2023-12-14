@@ -1,10 +1,12 @@
+/*her redigerer du tekst*/
+
 .tekst {
     font-size: 30px;
-    color: white;
+    color: #FFB703;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30vh; 
-    
+    font-family: 'Bebas Neue', sans-serif;
 }

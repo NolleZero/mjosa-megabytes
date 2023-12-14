@@ -1,37 +1,100 @@
-
-
+<!---dette er html for kontaktkjemaet-->
+<div class="overtekst">
+    <a>kontakt oss</a>
+</div>
 <div class="content-wrapper">
     
     <div id="form-container">
+      <!-- Removed the nested form tag which is not necessary -->
       <form class="contact-form">
-        <form>
-            <mat-form-field appearance="fill">
-              <mat-label>Navn</mat-label>
-              <input matInput required>
-            </mat-form-field>
-          
-            <mat-form-field appearance="fill">
-              <mat-label>Nettsted</mat-label>
-              <input matInput>
-            </mat-form-field>
-          
-            <mat-form-field appearance="fill">
-              <mat-label>E-post</mat-label>
-              <input matInput type="email" required>
-            </mat-form-field>
-          
-            <mat-form-field appearance="fill">
-              <mat-label>Melding</mat-label>
-              <textarea matInput required></textarea>
-            </mat-form-field>
-          
-            <button mat-raised-button>Send</button>
-          </form>
-          
+        <mat-form-field class="navn" appearance="fill">
+          <mat-label>Navn</mat-label>
+          <input matInput required>
+        </mat-form-field>
+        
+        <!-- It seems you want 'Nettsted' instead of 'Tlf' based on your image -->
+        <mat-form-field appearance="fill">
+          <mat-label>Tlf</mat-label>
+          <input matInput>
+        </mat-form-field>
+      
+        <mat-form-field appearance="fill">
+          <mat-label>E-post</mat-label>
+          <input matInput type="email" required>
+        </mat-form-field>
+      
+        <mat-form-field appearance="fill">
+          <mat-label>Melding</mat-label>
+          <textarea matInput required></textarea>
+        </mat-form-field>
+      
+        <button mat-raised-button>Send</button>
       </form>
     </div>
   </div>
+  
+  
+  <style>
+body {
+    background-color: #219EBC;
+}
+
+  /* General form field styling */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px; 
+  }
+  
+  /* Style for the button */
+  button {
+    margin-top: 60px;
+    background-color: #FFB703; 
+    color: #ffffff; 
+  }
+  
+  /* Container styling */
+  .content-wrapper {
+    margin-top: 100px;
+    width: 10%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0 4px 32px 0 #023047; 
+    background-color: #023047; 
+    font-family: 'Bebas Neue', sans-serif;
+   
+    
+    
+  }
+  
+  /* Label styling */
+  mat-label {
+    color: #FFB703; 
+  }
+  
+  /* Input field styling */
+  input.matInput, textarea.matInput {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  }
+  
+ 
+  .mat-form-field-required-marker {
+    color: rgb(0, 0, 0); 
+  }
+  
+  
+ .overtekst{
+    text-align: center;
+    font-size: 40px;
+    color: #FB8500;
+    text-shadow: 0 4px 32px 0 #023047;
+    font-family: 'Bebas Neue', sans-serif;
+
+ }
 
 
 
 
+  </style>
+  
